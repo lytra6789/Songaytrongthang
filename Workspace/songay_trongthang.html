@@ -1,0 +1,27 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            let thang = prompt("Nhap vao so thang bat ky");
+            switch (thang) {
+                case '1':
+                case '3':
+                case '5':
+                case '7':
+                case '8':
+                case '10':
+                case '12':
+                     document.write("Thang nay co 31 ngay"); break;
+                case '2': document.write("Thang nay co 28 ngay"); break;
+                case '4': 
+                case '6':
+                case '9':
+                case '11':
+                document.write("Thang nay co 30 ngay"); break;
+                default:document.write("Vui long nhap vao so thang hop le");
+            }
+        </script>
+    </body>
+</html>
